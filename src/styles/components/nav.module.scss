@@ -1,0 +1,17 @@
+.Nav_whole {
+    font-size: 20px;
+
+    border: 1px solid black;
+
+    ul {
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        
+        li {
+            cursor: pointer;
+
+        }
+    }
+}
