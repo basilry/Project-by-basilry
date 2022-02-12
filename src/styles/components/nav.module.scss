@@ -1,13 +1,20 @@
 .Nav_whole {
+    padding: 10px;
     font-size: 20px;
-
     border: 1px solid black;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    align-items: center;
+
+    div {
+        cursor: pointer;
+    }
 
     ul {
         position: sticky;
         top: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         
         li {
             cursor: pointer;
