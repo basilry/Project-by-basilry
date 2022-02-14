@@ -7,10 +7,10 @@ const Layout = ({ children }: any) => {
     const [openSide, setOpenSide] = useState(false)
 
     return (
-        <div>
+        <div className={styles.layout_whole}>
             <div className={styles.Nav_sitcky}>
                 <Nav openSide={openSide} setOpenSide={setOpenSide} />
-                {openSide && <Sidebar />}
+                <Sidebar openSide={openSide} />
             </div>
             <div className={styles.contents}>{children}</div>
         </div>

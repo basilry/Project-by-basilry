@@ -1,13 +1,28 @@
 .Nav_whole {
-    padding: 10px;
-    font-size: 20px;
-    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // height: 100px;
+    z-index: 100;
+    // padding: 10px;
+    font-size: 25px;
+    // border: 1px solid black;
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 1fr 9fr;
+    background-color: #363435;
+    color: #9b9a9a;
+   
     align-items: center;
 
     div {
         cursor: pointer;
+        padding-left: 40px;
+
+        &:hover {
+            cursor: pointer;
+            color: #03A65A;
+        }
     }
 
     ul {
@@ -15,10 +30,17 @@
         top: 0;
         display: flex;
         justify-content: space-around;
+        list-style: none;
         
         li {
             cursor: pointer;
+            display: flex;
+            align-items: center;
 
+            &:hover {
+                cursor: pointer;
+                color: #03A65A;
+            }
         }
     }
 }

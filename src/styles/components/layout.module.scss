@@ -1,9 +1,18 @@
-.Nav_sitcky {
-    position: sticky;
-    top: 0;
-}
 
-.contents {
-    height: 3000px;
-    border: 1px solid gray;
+.layout_whole {
+    height: 100%;
+
+    .Nav_sitcky {
+        position: inherit;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    
+    .contents {
+        // padding-top: 150px;
+        padding: 180px 100px 0 100px;
+        height: 100%;
+
+    }
 }
