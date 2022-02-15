@@ -1,0 +1,41 @@
+.footer_whole {
+    // position: fixed;
+    z-index: 100;
+    background-color: rgb(127 123 155);
+    // width: 200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+
+        li {
+            padding: 20px;
+
+            &:hover {
+                cursor: pointer;
+                color: #595959;
+            }
+
+            &:active {
+                cursor: pointer;
+                color: #03a65a;
+            }
+        }
+    }
+
+    .copyrights {
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        // font-style: ;
+        font-weight: 600;
+        color: #2b255a;
+        // margin-bottom: 50px;
+    }
+}

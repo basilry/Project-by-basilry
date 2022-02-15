@@ -1,50 +1,90 @@
 .sidebar_view {
-    position: absolute;
-    top: 20;
+    position: fixed;
+    top: 0;
     left: 0;
-
     font-size: 20px;
-    // border: 1px solid green;
     transition: all 0.5s ease;
-    width: 15%;
+    width: 23%;
     height: 100%;
     z-index: 90;
+    background-color: #f29f1d;
 
-    background-color: #260816;
-
-    // padding: 200px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     ul {
-        padding: 200px 0 0 60px;
+        padding: 40px 0 0 60px;
         list-style: none;
+
         li {
-            font-size: 30px;
-            padding: 20px;
-            color: #f2f1f0;
+            // display: flex;
+            // justify-content: right;
+            text-align: right;
+            align-items: center;
+            padding: 0 50px 0 0;
+            color: #f2f2f2;
+
+            &:nth-child(1) {
+                padding-top: 0;
+            }
+
+            p {
+                &:nth-child(1) {
+                    font-size: 40px;
+                    font-style: italic;
+                    font-weight: 900;
+                    margin-bottom: 0;
+                    padding-top: 40px;
+                }
+                &:nth-child(2) {
+                    font-size: 30px;
+                    font-style: italic;
+                    font-weight: 600;
+                    margin-top: 0;
+                }
+            }
 
             &:hover {
                 cursor: pointer;
-                color: #03A65A;
+                color: #595959;
             }
 
-            .pics {
-                border-radius: 90px;
+            &:active {
+                cursor: pointer;
+                color: #03a65a;
             }
         }
+    }
+
+    .copyrights {
+        text-align: center;
+        font-size: 15px;
+        // font-style: ;
+        font-weight: 600;
+        color: #2B255A;
+        margin-bottom: 40px;
     }
 }
 
 .sidebar_hide {
-    position: absolute;
-    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    width: 20%;
     height: 100%;
     overflow: hidden;
     transition: all 0.5s ease;
     z-index: 90;
-    font-size: 10px;
-    
+    // font-size: 10px;
+
     ul {
         display: none;
         font-size: 10px;
+    }
+
+    .copyrights {
+        display: none;
     }
 }

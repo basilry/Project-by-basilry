@@ -3,6 +3,7 @@
     height: 100%;
 
     .Nav_sitcky {
+        // position: sticky;
         position: inherit;
         top: 0;
         left: 0;
@@ -12,7 +13,8 @@
     .contents {
         // padding-top: 150px;
         padding: 180px 100px 0 100px;
-        height: 100%;
-
+        // height: 100%;
+        height: 2000px;
+        z-index: 100;
     }
 }

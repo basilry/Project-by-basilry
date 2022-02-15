@@ -1,18 +1,19 @@
 .Nav_whole {
-    position: absolute;
+    // position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    // height: 100px;
+    height: 100px;
     z-index: 100;
     // padding: 10px;
     font-size: 25px;
     // border: 1px solid black;
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    background-color: #363435;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b255a;
     color: #9b9a9a;
-   
+
     align-items: center;
 
     div {
@@ -21,26 +22,31 @@
 
         &:hover {
             cursor: pointer;
-            color: #03A65A;
+            color: #03a65a;
+            
+        }
+
+        &:active {
+            cursor: pointer;
+            color: #595959;
         }
     }
 
-    ul {
-        position: sticky;
-        top: 0;
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        
-        li {
-            cursor: pointer;
-            display: flex;
-            align-items: center;
+    p {
+        margin: 0;
+        padding: 40px;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 900;
 
-            &:hover {
-                cursor: pointer;
-                color: #03A65A;
-            }
+        &:hover {
+            cursor: pointer;
+            color: #03a65a;
+        }
+
+        &:active {
+            cursor: pointer;
+            color: #595959;
         }
     }
 }
