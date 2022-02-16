@@ -1,8 +1,19 @@
 .main_whole {
     color: white;
-    // margin: 
+    padding-left: 500px;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
     
-    div {
+    p {
+        &:hover {
+            cursor: pointer;
+            color: #03a65a;
+        }
 
+        &:active {
+            cursor: pointer;
+            color: #595959;
+        }
     }
 }
