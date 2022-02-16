@@ -47,7 +47,7 @@ const Sidebar = (props: any) => {
                 </Link>
             </ul>
 
-            <div className={styles.copyrights}>©2022. 김바실리(잔나비) all rights reserved.</div>
+            <div className={styles.nickname}>KBSL :: Jannavi</div>
         </div>
     )
 }

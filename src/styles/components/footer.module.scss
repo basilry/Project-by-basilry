@@ -1,7 +1,7 @@
 .footer_whole {
     // position: fixed;
     z-index: 100;
-    background-color: rgb(127 123 155);
+    background-color: #924848;
     // width: 200px;
     height: 100px;
 
@@ -13,18 +13,19 @@
         display: flex;
         justify-content: right;
         list-style: none;
+        color: white;
 
         li {
             padding: 20px;
 
             &:hover {
                 cursor: pointer;
-                color: #595959;
+                color: #03a65a;
             }
 
             &:active {
                 cursor: pointer;
-                color: #03a65a;
+                color: #595959;
             }
         }
     }
@@ -35,7 +36,8 @@
         font-size: 15px;
         // font-style: ;
         font-weight: 600;
-        color: #2b255a;
+        // color: #F4E185;
+        color: white;
         // margin-bottom: 50px;
     }
 }

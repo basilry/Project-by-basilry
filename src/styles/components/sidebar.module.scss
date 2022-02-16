@@ -7,7 +7,7 @@
     width: 23%;
     height: 100%;
     z-index: 90;
-    background-color: #f29f1d;
+    background-color: #F3950D;
 
     display: flex;
     flex-direction: column;
@@ -57,13 +57,26 @@
         }
     }
 
-    .copyrights {
+    .nickname {
         text-align: center;
         font-size: 15px;
-        // font-style: ;
-        font-weight: 600;
+        
         color: #2B255A;
         margin-bottom: 40px;
+
+        font-style: italic;
+        font-weight: 900;
+
+        &:hover {
+            cursor: pointer;
+            color: #03a65a;
+        }
+
+        &:active {
+            cursor: pointer;
+            color: #595959;
+        }
+    
     }
 }
 

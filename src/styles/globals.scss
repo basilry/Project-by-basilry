@@ -18,3 +18,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F4E185;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #F3950D;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 10px;
+  background-color: #F4E185;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #F3950D;
+}
