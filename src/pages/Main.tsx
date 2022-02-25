@@ -4,7 +4,6 @@ import styles from "@styles/pages/main.module.scss"
 
 const Main = () => {
     return (
-        <Layout>
             <section className={styles.main_whole}>
                 {/* <div> */}
                     <p>{"Const MyLife = () => {"}</p>
@@ -14,12 +13,9 @@ const Main = () => {
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;진짜</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;프론트엔드 개발자를 꿈꾸는</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;법학도.</p>
-                    {/* <br /> */}
                     <p>&nbsp;&nbsp;{"return 'Reality'"}</p>
                     <p>{"};"}</p>
-                {/* </div> */}
             </section>
-        </Layout>
     )
 }
 
