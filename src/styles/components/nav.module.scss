@@ -11,8 +11,8 @@
     // border: 1px solid black;
     display: flex;
     justify-content: space-between;
-    background-color: #0F2C67;
-    color: #9b9a9a;
+    background-color: #737373;
+    color: #F2F2F2;
 
     align-items: center;
 
@@ -22,13 +22,12 @@
 
         &:hover {
             cursor: pointer;
-            color: #03a65a;
-            
+            color: #D9D9D9;
         }
 
         &:active {
             cursor: pointer;
-            color: #595959;
+            color: #0057ff;
         }
     }
 
@@ -41,12 +40,12 @@
 
         &:hover {
             cursor: pointer;
-            color: #03a65a;
+            color: #D9D9D9;
         }
 
         &:active {
             cursor: pointer;
-            color: #595959;
+            color: #0057ff;
         }
     }
 }

@@ -7,7 +7,7 @@ body {
   font-family: "Railway";
   min-width: 1920px;
   min-height: 1080px;
-  background-color: rgb(10 8 20);
+  background-color: #0D0D0D;
 }
 
 a {
@@ -22,16 +22,16 @@ a {
 
 ::-webkit-scrollbar {
   width: 5px;
-  background-color: #F4E185;
+  background-color: #D9D9D9;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #F3950D;
+  background-color: #0057ff;
 }
 
 ::-webkit-scrollbar:horizontal {
   height: 10px;
-  background-color: #F4E185;
+  background-color: #D9D9D9;
 }
 ::-webkit-scrollbar-thumb:horizontal {
-  background-color: #F3950D;
+  background-color: #0057ff;
 }

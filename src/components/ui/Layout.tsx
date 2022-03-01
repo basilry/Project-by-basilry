@@ -11,7 +11,7 @@ const Layout = ({ children }: any) => {
         <div className={styles.layout_whole}>
             <div className={styles.Nav_sitcky}>
                 <Nav openSide={openSide} setOpenSide={setOpenSide} />
-                <Sidebar openSide={openSide} />
+                <Sidebar openSide={openSide} setOpenSide={setOpenSide} />
             </div>
             <div className={styles.contents} onClick={() => setOpenSide(false)}>{children}</div>
             <Footer />

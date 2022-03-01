@@ -2,15 +2,15 @@ import React from 'react'
 import styles from "../../styles/components/common.module.scss"
 
 
-const aboutme = () => {
+const ContentsWrapper = ({children}: any) => {
     return (
         <div className={styles.common_wrapper}>
             <div className={styles.common_area}>
-                저는요...
+                {children}
             </div>
         </div>
     );
 }
 
 
-export default aboutme
+export default ContentsWrapper

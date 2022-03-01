@@ -7,7 +7,7 @@
     width: 23%;
     height: 100%;
     z-index: 90;
-    background-color: #F3950D;
+    background-color: #404040;
 
     display: flex;
     flex-direction: column;
@@ -47,12 +47,12 @@
 
             &:hover {
                 cursor: pointer;
-                color: #595959;
+                color: #D9D9D9;
             }
 
             &:active {
                 cursor: pointer;
-                color: #03a65a;
+                color: #0057ff;
             }
         }
     }
@@ -61,7 +61,7 @@
         text-align: center;
         font-size: 15px;
         
-        color: #2B255A;
+        color: #f2f2f2;
         margin-bottom: 40px;
 
         font-style: italic;
@@ -69,12 +69,12 @@
 
         &:hover {
             cursor: pointer;
-            color: #03a65a;
+            color: #D9D9D9;
         }
 
         &:active {
             cursor: pointer;
-            color: #595959;
+            color: #0057ff;
         }
     
     }
